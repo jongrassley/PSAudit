@@ -1,0 +1,6 @@
+ID,Title,UserPosition,Filter,Report
+4624,<h2>User Logons (Event: 4624)</h2>,5,$_.User -ne "System",Logon
+4648,<h2>A logon was attempted using explicit credentials (Event: 4648)</h2>,5,,Logon
+4672,<h2>Special Privileges assigned to new logons (Event: 4672)</h2>,1,$_.User -ne "System",Logon
+4720,<h2>A user account was created (Event: 4720)</h2>,0,,UserAccount
+4738,<h2>A user account was changed (Event: 4738)</h2>,1,,UserAccount
